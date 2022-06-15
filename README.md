@@ -2,7 +2,7 @@
 
 Qianfan Zhao, Lu Zhang, Bin He, Hong Qiao, and Zhiyong Liu
 
-<img src="https://img-blog.csdnimg.cn/2020102116384135.png" width="100px">
+<img src="https://github.com/pioneer-innovation/3D_active_dataset/blob/main/architecture.jpg" width="100px">
 <p align="center">
     The architecture of our model
 </p>
