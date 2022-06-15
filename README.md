@@ -64,7 +64,7 @@ python main.py --eval \
 
 Note: the folder to save trained model should be set up before training.
 
-### Evaluate our model under 18/4 class split
+### Train your model under 18/4 class split
 
 ```bash
 python main.py \
@@ -79,7 +79,7 @@ python main.py \
     --split 18/4
 ```
 
-### Evaluate our model under 14/8 class split
+### Train your model under 14/8 class split
 
 ```bash
 python main.py \
