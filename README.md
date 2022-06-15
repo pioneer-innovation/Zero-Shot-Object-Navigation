@@ -4,7 +4,7 @@ Qianfan Zhao, Lu Zhang, Bin He, Hong Qiao, and Zhiyong Liu
 
 This implementation is modeified based on [MJOLNOR](https://github.com/cassieqiuyd/MJOLNIR) and [SAVN](https://github.com/allenai/savn).
 
-# Setup
+## Setup
 
 1. (Recommended) Create a virtual environment using virtualenv or conda:
 ```
@@ -34,7 +34,7 @@ For training, please also download "train.zip" (~9 GB), and put all "Floorplan" 
 
 Note: if you are not using gpu, you can remove the argument `--gpu-ids 0`
 
-#### Evaluate our model under 18/4 class split
+### Evaluate our model under 18/4 class split
 
 ```bash
 python main.py --eval \
@@ -47,3 +47,15 @@ python main.py --eval \
     --split 18/4
 ```
 
+### Evaluate our model under 14/8 class split
+
+```bash
+python main.py --eval \
+    --test_or_val test \
+    --episode_type TestValEpisode \
+    --load_model pretrained_models/SelfAttention_test.dat \
+    --model SelfAttention_test \
+    --gpu-ids 0 \
+    --zsd 1 \
+    --split 14/8
+```
