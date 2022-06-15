@@ -6,7 +6,7 @@ Qianfan Zhao, Lu Zhang, Bin He, Hong Qiao, and Zhiyong Liu
 <img src="https://github.com/pioneer-innovation/3D_active_dataset/blob/main/architecture.jpg" width="750"/>
 </p>
 <p align="center">
-_The architecture of our model_
+*The architecture of our model*
 </p>
 
 This implementation is modeified based on [MJOLNOR](https://github.com/cassieqiuyd/MJOLNIR) and [SAVN](https://github.com/allenai/savn).
@@ -47,7 +47,7 @@ Note: if you are not using gpu, you can remove the argument `--gpu-ids 0`
 python main.py --eval \
     --test_or_val test \
     --episode_type TestValEpisode \
-    --load_model pretrained_models/SelfAttention_test.dat \
+    --load_model pretrained_models/SelfAttention_test_18_4.dat \
     --model SelfAttention_test \
     --gpu-ids 0 \
     --zsd 1 \
@@ -60,7 +60,7 @@ python main.py --eval \
 python main.py --eval \
     --test_or_val test \
     --episode_type TestValEpisode \
-    --load_model pretrained_models/SelfAttention_test.dat \
+    --load_model pretrained_models/SelfAttention_test_14_8.dat \
     --model SelfAttention_test \
     --gpu-ids 0 \
     --zsd 1 \
@@ -95,7 +95,7 @@ python main.py \
     --gpu-ids 0 \
     --workers 8 \
     --vis False \
-    --save-model-dir trained_models/SA_18_4/ \
+    --save-model-dir trained_models/SA_14_8/ \
     --zsd 1 \
     --partial_reward 1 \
     --split 14/8
