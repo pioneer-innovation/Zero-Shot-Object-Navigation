@@ -5,9 +5,11 @@ Qianfan Zhao, Lu Zhang, Bin He, Hong Qiao, and Zhiyong Liu
 <p align="center">
 <img src="https://github.com/pioneer-innovation/3D_active_dataset/blob/main/architecture.jpg" width="750"/>
 </p>
+
 <p align="center">
 <i>The architecture of our model</i>
 </p>
+
 This implementation is modeified based on [MJOLNOR](https://github.com/cassieqiuyd/MJOLNIR) and [SAVN](https://github.com/allenai/savn).
 
 ## Setup
