@@ -30,7 +30,7 @@ The offline data can be found [here](https://drive.google.com/drive/folders/1i6V
 
 For training, please also download "train.zip" (~9 GB), and put all "Floorplan" folders into `MJOLNIR/data/thor_v1_offline_data`
 
-## Evaluation
+## Evaluation our model
 
 Note: if you are not using gpu, you can remove the argument `--gpu-ids 0`
 
@@ -57,5 +57,39 @@ python main.py --eval \
     --model SelfAttention_test \
     --gpu-ids 0 \
     --zsd 1 \
+    --split 14/8
+```
+
+## Train your model
+
+Note: the folder to save trained model should be set up before training.
+
+### Evaluate our model under 18/4 class split
+
+```bash
+python main.py \
+    --title mjolnir_train \
+    --model SelfAttention_test \
+    --gpu-ids 0 \
+    --workers 8 \
+    --vis False \
+    --save-model-dir trained_models/SA_18_4/ \
+    --zsd 1 \
+    --partial_reward 1 \
+    --split 18/4
+```
+
+### Evaluate our model under 14/8 class split
+
+```bash
+python main.py \
+    --title mjolnir_train \
+    --model SelfAttention_test \
+    --gpu-ids 0 \
+    --workers 8 \
+    --vis False \
+    --save-model-dir trained_models/SA_18_4/ \
+    --zsd 1 \
+    --partial_reward 1 \
     --split 14/8
 ```
