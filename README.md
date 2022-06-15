@@ -3,6 +3,9 @@
 Qianfan Zhao, Lu Zhang, Bin He, Hong Qiao, and Zhiyong Liu
 
 ![image](https://github.com/pioneer-innovation/3D_active_dataset/blob/main/architecture.jpg)
+<p align="center">
+    The architecture of our model
+</p>
 
 This implementation is modeified based on [MJOLNOR](https://github.com/cassieqiuyd/MJOLNIR) and [SAVN](https://github.com/allenai/savn).
 
