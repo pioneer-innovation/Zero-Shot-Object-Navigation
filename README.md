@@ -67,11 +67,11 @@ python main.py --eval \
     --split 14/8
 ```
 
-## Train your model
+## Train our model
 
 Note: the folder to save trained model should be set up before training.
 
-### Train your model under 18/4 class split
+### Train our model under 18/4 class split
 
 ```bash
 python main.py \
@@ -86,7 +86,7 @@ python main.py \
     --split 18/4
 ```
 
-### Train your model under 14/8 class split
+### Train our model under 14/8 class split
 
 ```bash
 python main.py \
