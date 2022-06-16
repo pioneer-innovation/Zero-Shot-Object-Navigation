@@ -47,7 +47,7 @@ For training, please also download "train.zip" (~9 GB), and put all "Floorplan" 
 
 Note: if you are not using gpu, you can remove the argument `--gpu-ids 0`
 
-#### Evaluate our model under 18/4 class split
+Evaluate our model under 18/4 class split
 
 ```bash
 python main.py --eval \
@@ -60,7 +60,7 @@ python main.py --eval \
     --split 18/4
 ```
 
-#### Evaluate our model under 14/8 class split
+Evaluate our model under 14/8 class split
 
 ```bash
 python main.py --eval \
@@ -77,7 +77,7 @@ python main.py --eval \
 
 Note: the folder to save trained model should be set up before training.
 
-#### Train our model under 18/4 class split
+Train our model under 18/4 class split
 
 ```bash
 python main.py \
@@ -92,7 +92,7 @@ python main.py \
     --split 18/4
 ```
 
-#### Train our model under 14/8 class split
+Train our model under 14/8 class split
 
 ```bash
 python main.py \
@@ -109,10 +109,10 @@ python main.py \
 
 ## Citation
 ```
-@article{qiu2020learning,
-  title={Zero-shot object goal visual navigation},
-  author={Qianfan Zhao, Lu Zhang, Bin He, Hong Qiao, Zhiyong Liu},
-  journal={arXiv preprint arXiv:2206.07423},
-  year={2022}
+@article{zson,
+      title={Zero-shot object goal visual navigation},
+      author={Qianfan Zhao, Lu Zhang, Bin He, Hong Qiao, Zhiyong Liu},
+      journal={arXiv preprint arXiv:2206.07423},
+      year={2022}
 }
 ```
