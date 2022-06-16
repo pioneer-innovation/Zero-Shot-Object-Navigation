@@ -11,7 +11,7 @@ Our paper is available at [ZSON](https://arxiv.org/abs/2206.07423)
 <i>The architecture of our model</i>
 </p>
 
-This implementation is modeified based on [MJOLNOR](https://github.com/cassieqiuyd/MJOLNIR) and [SAVN](https://github.com/allenai/savn).
+This implementation is modeified based on [MJOLNIR](https://github.com/cassieqiuyd/MJOLNIR) and [SAVN](https://github.com/allenai/savn).
 
 ## Setup
 
