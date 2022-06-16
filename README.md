@@ -43,7 +43,7 @@ The offline data can be found [here](https://drive.google.com/drive/folders/1i6V
 
 For training, please also download "train.zip" (~9 GB), and put all "Floorplan" folders into `MJOLNIR/data/thor_v1_offline_data`
 
-## Evaluation our model
+## Evaluation
 
 Note: if you are not using gpu, you can remove the argument `--gpu-ids 0`
 
@@ -73,7 +73,7 @@ python main.py --eval \
     --split 14/8
 ```
 
-## Train our model
+## Training
 
 Note: the folder to save trained model should be set up before training.
 
@@ -110,9 +110,9 @@ python main.py \
 ## Citation
 ```
 @article{zson,
-      title={Zero-shot object goal visual navigation},
-      author={Qianfan Zhao, Lu Zhang, Bin He, Hong Qiao, Zhiyong Liu},
-      journal={arXiv preprint arXiv:2206.07423},
-      year={2022}
+  title={Zero-shot object goal visual navigation},
+  author={Qianfan Zhao, Lu Zhang, Bin He, Hong Qiao, Zhiyong Liu},
+  journal={arXiv preprint arXiv:2206.07423},
+  year={2022}
 }
 ```
