@@ -106,3 +106,13 @@ python main.py \
     --partial_reward 1 \
     --split 14/8
 ```
+
+## Citation
+```
+@article{qiu2020learning,
+  title={Zero-shot object goal visual navigation},
+  author={Qianfan Zhao, Lu Zhang, Bin He, Hong Qiao, Zhiyong Liu},
+  journal={arXiv preprint arXiv:2206.07423},
+  year={2022}
+}
+```
