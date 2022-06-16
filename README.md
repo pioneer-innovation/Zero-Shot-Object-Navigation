@@ -1,6 +1,7 @@
 # Zero-Shot Object Goal Visual Navigation
 
 Qianfan Zhao, Lu Zhang, Bin He, Hong Qiao, and Zhiyong Liu
+Our paper is available at [ZSON](https://arxiv.org/abs/2206.07423)
 
 <p align="center">
 <img src="https://github.com/pioneer-innovation/3D_active_dataset/blob/main/architecture.jpg" width="750"/>
