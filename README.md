@@ -1,13 +1,5 @@
 # Zero-Shot Object Goal Visual Navigation
 
-
-<p align="center">
-<img src="https://github.com/pioneer-innovation/3D_active_dataset/blob/main/architecture.jpg" width="750"/>
-</p>
-<p align="center">
-<i>The architecture of our model</i>
-</p>
-
 This implementation is modeified based on [MJOLNIR](https://github.com/cassieqiuyd/MJOLNIR) and [SAVN](https://github.com/allenai/savn).
 
 ## Setup
@@ -104,12 +96,3 @@ python main.py \
     --split 14/8
 ```
 
-## Citation
-```
-@article{zson,
-  title={Zero-shot object goal visual navigation},
-  author={Qianfan Zhao, Lu Zhang, Bin He, Hong Qiao, Zhiyong Liu},
-  journal={arXiv preprint arXiv:2206.07423},
-  year={2022}
-}
-```
