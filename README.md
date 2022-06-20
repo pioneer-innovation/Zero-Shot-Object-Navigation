@@ -30,7 +30,7 @@ The offline data can be found [here](https://drive.google.com/drive/folders/1i6V
 
 "data.zip" (~5 GB) contains everything needed for evalution. Please unzip it and put it into the MJOLNIR folder.
 
-For training, please also download "train.zip" (~9 GB), and put all "Floorplan" folders into `MJOLNIR/data/thor_v1_offline_data`
+For training, please also download "train.zip" (~9 GB), and put all "Floorplan" folders into `./data/thor_v1_offline_data`
 
 ## Evaluation
 
