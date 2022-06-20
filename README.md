@@ -28,7 +28,7 @@ git clone https://github.com/pioneer-innovation/Zero-Shot-Object-Navigation
 
 The offline data can be found [here](https://drive.google.com/drive/folders/1i6V_t6TqaTpUdUFpOJT3y3KraJjak-sa?usp=sharing).
 
-"data.zip" (~5 GB) contains everything needed for evalution. Please unzip it and put it into the MJOLNIR folder.
+"data.zip" (~5 GB) contains everything needed for evalution. Please unzip it and put it into the Zero-Shot-Object-Navigation folder.
 
 For training, please also download "train.zip" (~9 GB), and put all "Floorplan" folders into `./data/thor_v1_offline_data`
 
