@@ -21,7 +21,7 @@ pip install -r requirements.txt --ignore-installed
 
 3. Clone the repository as:
 ```
-git clone https://github.com/cassieqiuyd/MJOLNIR.git
+git clone https://github.com/pioneer-innovation/Zero-Shot-Object-Navigation
 ```
 
 ## Data
