@@ -16,7 +16,7 @@ conda activate ZSON
 
 2. Clone the repository as:
 ```
-git clone https://github.com/pioneer-innovation/Zero-Shot-Object-Navigation
+git clone https://github.com/pioneer-innovation/Zero-Shot-Object-Navigation.git
 cd Zero-Shot-Object-Navigation
 ```
 
