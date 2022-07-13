@@ -1,6 +1,7 @@
 # Zero-Shot Object Goal Visual Navigation
 
 This implementation is modeified based on [MJOLNIR](https://github.com/cassieqiuyd/MJOLNIR) and [SAVN](https://github.com/allenai/savn).
+The code has been implemented and tested on Ubuntu 18.04, python 3.6, PyTorch 0.6 and CUDA 10.1
 
 ## Setup
 
